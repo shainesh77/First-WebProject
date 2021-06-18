@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ALBERT EINSTEIN</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+
+    <style>
+        img {
+            border-radius: 20px;
+        }
+    </style>
+
+
+
+</head>
+
+<body>
+
+    <section id="Banner">
+        <!--     <img src="images/logo.png" class="logo">  -->
+        <div class="Banner-text">
+            <h1>Albert Einstein </h1>
+            <h4> (14 March 1879 – 18 April 1955 )</h4>
+            <!-- <p>Imagination is everything. It is the preview of life's coming attractions. </p> -->
+
+            <!--     
+            <div class="banner-btn">
+                <a href="#"> link1</a>
+                <a href="#">link2</a>
+
+            </div>
+        -->
+        </div>
+
+    </section>
+
+    <div id="sideNav">
+        <nav>
+            <ul>
+
+                <li>
+                    <a href=""> </a>
+                </li>
+                <li> <a href="info.html"> Informaion </a> </li>
+                <!-- <li> <a href="contribution.html"> Contribution</a> </li> -->
+                <li> <a href="Quotes.html"> Quotes </a> </li>
+                <li> <a href="finalgallery.html"> Gallery </a> </li>
+
+            </ul>
+        </nav>
+    </div>
+
+    <div id="menuBtn"> <img src="images/logo.png" id="menu"> </div>
+
+
+    <!-- footer  -->
+
+    <section id="footer">
+        <div class="Footer">
+            <h4 style="position: relative;"> <i> Let's connect...</i></h4>
+            <div class="row">
+                <div class="column">
+                    <a href="https://www.linkedin.com/in/nishant-patil-88b69618b">
+                        <img src="images/linked.jpg" alt="LINKEDIN" style="width:10%">
+                    </a>
+                </div>
+
+                <div class="column">
+                    <a href="https://blogstoarise.blogspot.com/">
+                        <img src="images/Blogger.png" alt="Blogger" style="width:10%">
+                    </a>
+                </div>
+
+                <div class="column">
+                    <a href="https://www.instagram.com/nishant_219/">
+                        <img src="images/insta.jpg" alt="Instagram" style="width:10%">
+                    </a>
+                </div>
+            </div>
+
+            <!-- <h4>NISHANT</h4>
+            <img src="images/self.jpg" alt="Avatar" style="width:75px"> -->
+
+        </div>
+        <!-- 
+        <div class="title-text">
+            <p><i>Let's connect...</i> </p>
+            <ul>
+                <li>
+                    <a href="#"> <i class="fab fa-linkedin"></i></a>
+                </li>
+                <li>
+                    <a href="#"> <i class="fab fa-blogger"></i></a>
+                </li>
+                <li> <a href="#"><i class="fab fa-instagram"></i> </a></li>
+                <li>
+                    <a href="#"> <i class="fab fa-youtube"></i></a>
+                </li>
+
+            </ul>
+        </div> -->
+    </section>
+
+
+
+    <script>
+        var menuBtn = document.getElementById("menuBtn")
+        var sideNav = document.getElementById("sideNav")
+        var menu = document.getElementById("menu")
+
+        sideNav.style.right = "-250px";
+
+        menuBtn.onclick = function() {
+            if (sideNav.style.right == "-250px") {
+                sideNav.style.right = "0";
+            } else {
+                sideNav.style.right = "-250px";
+            }
+        }
+    </script>
+
+</body>
+
+</html>
